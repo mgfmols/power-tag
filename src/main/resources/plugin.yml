@@ -1,0 +1,26 @@
+name: PowerTag
+version: '${project.version}'
+main: xeterios.powertag.Main
+api-version: '1.20'
+prefix: '[PowerTag]'
+authors: [ Xeterios ]
+softdepend: [ PlaceholderAPI, Multiverse-Core, ItemsAdder ]
+commands:
+  powertag:
+    description: Main command for the power tag plugin
+    usage: /<command>
+  tag:
+    description: Main command for the power tag plugin
+    usage: /<command>
+  leaderboard:
+    description: Open the power tag leaderboard
+    usage: /<command>
+  leave:
+    description: Leave a game of power tag
+    usage: /<command>
+  profile:
+    description: Open your or another player's profile
+    usage: /<command> [player]
+  settings:
+    description: Open your or another player's settings
+    usage: /<command> [player]

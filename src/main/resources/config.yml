@@ -1,0 +1,33 @@
+#################################
+#                               #
+#         Power Tag v1.0        #
+#          by Xeterios          #
+#                               #
+#################################
+
+settings:
+  general:
+    # Minimum amount of players required to play a game of tag.
+    minimumPlayers: 4
+    timerMultiplier: 2.0
+  powerups:
+    enabled: true
+    # If the sum of chances exceed 100, some powerups may not spawn.
+    boost:
+      chance: 20.0
+    sniper:
+      chance: 17.5
+    infrasight:
+      chance: 17.5
+    chains:
+      chance: 15.0
+    invisibility:
+      chance: 15.0
+    firework:
+      chance: 10.0
+    shuffle:
+      chance: 5.0
+locale:
+  prefix: "&x&e&0&1&5&0&7&lPower Tag &8» &7"
+  primaryColor: "&x&e&0&1&5&0&7"
+  secondaryColor: "&c"
